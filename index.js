@@ -6,10 +6,12 @@ const settings = {
         claude: [],
         openai: [],
         google: [],
+        vertexai: [],
     },
     openai_model: undefined,
     claude_model: undefined,
     google_model: undefined,
+    vertexai_model: undefined,
 };
 Object.assign(settings, extension_settings.customModels ?? {});
 // fix if installed before google support was added
